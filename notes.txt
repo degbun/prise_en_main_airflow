@@ -1,0 +1,15 @@
+on prend le docker-compose.yaml
+ensuite on cree fichiers ./dags ./plugins ./logs
+je telecharge aussi le Dockerfile ou bien je cree un 
+je doit cree aussi un .env
+
+ensuite je fais 
+docker-compose up airflow-init
+ensuite
+docker-compose up -d
+
+
+mot de passe : airflow/airflow
+
+site pour voir  à quel heure lancer les dags 
+crontab guru

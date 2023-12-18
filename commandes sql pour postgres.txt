@@ -1,0 +1,10 @@
+create table if not exists public.orders(
+order_id character varying,
+date date ,
+product_name character varying,
+quantity integer,
+primary key (order_id)
+)
+
+
+select * from public.orders limit 100;
